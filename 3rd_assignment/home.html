@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Home</title>
+		 <link type="text/css" rel="stylesheet" href="style.css" media:"all" />
+
+	</head>
+	<body>
+		 <script type="text/javascript" src="sider_function.js"></script>
+
+		<header class="banner">
+			<h1>Home</h1>
+			<p>Local and National News</p>
+		</header>
+
+		<nav>
+			<ul>
+				<li class="highlighted"><a href="home.html" onmouseover="sidebar2_onMouseOver()" onmouseout="sidebar2_onMouseOut()">Home</a></li>
+				<li><a href="archive.html" >Archives</a></li>
+				<li><a href="about.html">About</a></li>
+			</ul>
+		</nav>
+
+		<main>
+			<section>
+				<h2 id="local">Local News</h2>
+				<article>
+					<header>
+					<h3>Fire fighters rescue man from building</h3>
+					<p>(author, date)</p>
+					</header>
+					<p>This is the first story text. This is the story text.</p>
+				</article>
+
+				<article>
+					<header>
+					<h3>New Library to be built</h3>
+					<p>(author, date)</p>
+					</header>
+					<p>This is the second story text. This is the story text.</p>
+				</article>
+
+			</section>
+				
+			<section>
+				<h2>National News</h2>
+				<article>
+					<header>
+					<h3>Fire fighters rescue man from building</h3>
+					<p>(author, date)</p>
+					</header>
+					<p>This is the first story text. This is the story text.</p>
+				</article>
+
+				<article>
+					<header>
+					<h3>New Library to be built</h3>
+					<p>(author, date)</p>
+					</header>
+					<p>This is the second story text. This is the story text.</p>
+				</article>
+			</section>
+			</main>
+
+
+			<aside>
+				<h2>Be a news reporter</h2>
+				<p>If you see news happening-Send us a Text.</p>
+			</aside>
+
+			<aside id="sidebar2">
+				<h2>Be yourself</h2>
+				<p>See what can be shown here</p>
+			</aside>
+
+			<aside id="sidebar3">
+				<form name="myForm" action="/action_page_post.php" onsubmit="return sidebar3_validateForm()" method="post">
+				Enter: <input type="text" id="x_enter">
+				<input type="submit" value="Submit">
+				</form>
+			</aside>
+		
+			<footer>
+				<p>Footer Information</p>
+			</footer>
+
+
+	</body>
+</html>
